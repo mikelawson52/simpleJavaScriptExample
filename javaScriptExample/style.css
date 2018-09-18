@@ -1,0 +1,14 @@
+/*
+Michael Lawson
+lawsonm6@mail.uc.edu
+Assignment 02
+Due Date: 9/16/18
+IT3049 Web Game Development
+CSS file for a higher/lower number guessing game. Centers the game to the middle of the browser.
+*/
+html{
+    text-align: center;
+}
+gameScreen {
+    display: inline-block;
+}

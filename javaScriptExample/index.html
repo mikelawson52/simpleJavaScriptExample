@@ -1,0 +1,59 @@
+<!---
+Michael Lawson
+lawsonm6@mail.uc.edu
+Assignment 02
+Due Date: 9/16/18
+IT3049 Web Game Development
+HTML file for the basic layout of a higher/lower number guessing game.
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment 2: Higher Lower</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>High/Low Guessing Game</h1>
+  <div id="gameScreen">
+    Please hit start to start the game. <br/><br/>
+    <button id="startButton">Start</button>
+    <br/>
+    <br/>
+    <!--Form for the game-->
+    <form id = "gameForm">
+      <!--Initial Number text box in the form-->
+      <label for ="initialNumber">
+        Initial Number:
+        <input type = "text" id = "initialNumber" readonly/>
+      </label>
+      <br/>
+      <br/>
+      <!--Higher/Same/Lower buttons in the form.-->
+      Guess whether the next number is higher, lower, or the same!<br/><br/>
+      <button id ="submitLower">Lower!</button>
+      <button id = "submitSame">The Same!</button>
+      <button id = "submitHigher">Higher!</button>
+      <br/>
+      <br/>
+      <!--Next Number text box in the form-->
+      <label for ="nextNumber">
+        Next Number:
+        <input type = "text" id = "nextNumber" readonly/>
+      </label> 
+      <br/>
+      <br/>
+      <!--Reset button within the form-->
+      Reset The Game:
+      <button id ="submitReset">Reset</button>
+    </form>
+    <br/>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+<footer>Made by Michael Lawson for IT3049C FS2018 <a href="mailto:lawsonm6@mail.uc.edu">lawsonm6@mail.uc.edu</a></footer>
+</html>
